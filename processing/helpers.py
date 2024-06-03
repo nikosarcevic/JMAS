@@ -152,3 +152,7 @@ gdplot.settings.linewidth = 1.5
 gdplot.settings.axis_marker_lw = 0.7
 gdplot.settings.legend_frac_subplot_margin = 0.1
 
+dpi = {
+    "pdf": 150,
+    "png": 300,
+}
