@@ -1,6 +1,6 @@
 # Joint Modelling of Astrophysical Systematics
 
-This repository contains the data products from the JMAS analysis (arXiv link) and (JournalX link) -- will be updated.
+This repository contains the data products from the JMAS analysis [arXiv link](https://arxiv.org/pdf/2406.03352) and (JournalX link) -- will be updated.
 It also contains notebooks to recreate the plots presented in the paper.
 
 Data products can be found on [Zenodo](https://zenodo.org/records/11447672).
