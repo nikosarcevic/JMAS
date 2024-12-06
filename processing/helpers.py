@@ -1,5 +1,8 @@
 from getdist import plots
+import matplotlib.pyplot as plt
+from matplotlib.ticker import AutoMinorLocator
 import numpy as np
+import subprocess
 
 
 def get_stats(cov_matrix, fiducial_values):
@@ -140,7 +143,7 @@ cosmoiaplot.settings.linewidth = 4
 cosmoiaplot.settings.axis_marker_lw = 2
 cosmoiaplot.settings.legend_frac_subplot_margin = 0.1
 
-gdplot = plots.get_subplot_plotter(width_inch=12)
+gdplot = plots.get_subplot_plotter(width_inch=24)
 gdplot.settings.alpha_filled_add = 0.7
 gdplot.settings.axes_labelsize = 20
 gdplot.settings.legend_rect_border = False
@@ -152,7 +155,45 @@ gdplot.settings.linewidth = 1.5
 gdplot.settings.axis_marker_lw = 0.7
 gdplot.settings.legend_frac_subplot_margin = 0.1
 
+
+def customize_ticks(plotter, major_ticks=2, minor_tick_length=4):
+    """
+    Customize ticks for all subplots in a GetDistPlotter instance.
+
+    Parameters:
+    plotter (GetDistPlotter): The GetDistPlotter instance containing the figure.
+    major_ticks (int): Number of major ticks to display on each axis.
+    minor_tick_length (int): Length of minor ticks.
+    """
+    if plotter.fig is None:
+        raise ValueError("No figure exists in the provided plotter. Create a plot before customizing ticks.")
+
+    for ax in plotter.fig.get_axes():  # Loop through all subplots
+        ax.xaxis.set_major_locator(plt.MaxNLocator(major_ticks))  # Major ticks on x-axis
+        ax.yaxis.set_major_locator(plt.MaxNLocator(major_ticks))  # Major ticks on y-axis
+
+        ax.xaxis.set_minor_locator(AutoMinorLocator())  # Minor ticks on x-axis
+        ax.yaxis.set_minor_locator(AutoMinorLocator())  # Minor ticks on y-axis
+
+        ax.tick_params(axis='x', which='minor', length=minor_tick_length, labelsize=0)
+        ax.tick_params(axis='y', which='minor', length=minor_tick_length, labelsize=0)
+
+
 dpi = {
     "pdf": 150,
     "png": 300,
 }
+
+
+def compress_pdf(input_pdf, output_pdf, level=1.4):
+    return subprocess.run([
+        "gs",
+        "-sDEVICE=pdfwrite",
+        f"-dCompatibilityLevel={level}",
+        "-dPDFSETTINGS=/screen",
+        "-dNOPAUSE",
+        "-dQUIET",
+        "-dBATCH",
+        f"-sOutputFile={output_pdf}",
+        input_pdf
+    ])
