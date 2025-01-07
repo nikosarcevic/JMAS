@@ -145,15 +145,27 @@ cosmoiaplot.settings.legend_frac_subplot_margin = 0.1
 
 gdplot = plots.get_subplot_plotter(width_inch=24)
 gdplot.settings.alpha_filled_add = 0.7
-gdplot.settings.axes_labelsize = 20
+gdplot.settings.axes_labelsize = 35
 gdplot.settings.legend_rect_border = False
-gdplot.settings.axes_fontsize = 15
+gdplot.settings.axes_fontsize = 16
 gdplot.settings.figure_legend_frame = False
-gdplot.settings.legend_fontsize = 20
+gdplot.settings.legend_fontsize = 35
 gdplot.settings.linewidth_contour = 1.5
 gdplot.settings.linewidth = 1.5
 gdplot.settings.axis_marker_lw = 0.7
 gdplot.settings.legend_frac_subplot_margin = 0.1
+
+allplot = plots.get_subplot_plotter(width_inch=24)
+allplot.settings.alpha_filled_add = 0.7
+allplot.settings.axes_labelsize = 35
+allplot.settings.legend_rect_border = False
+allplot.settings.axes_fontsize = 20
+allplot.settings.figure_legend_frame = False
+allplot.settings.legend_fontsize = 35
+allplot.settings.linewidth_contour = 1.5
+allplot.settings.linewidth = 1.5
+allplot.settings.axis_marker_lw = 0.7
+allplot.settings.legend_frac_subplot_margin = 0.1
 
 
 def customize_ticks(plotter, major_ticks=2, minor_tick_length=4):

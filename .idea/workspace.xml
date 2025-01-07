@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8adec3b0-9742-4b48-84e3-112b6938378a" name="Changes" comment="fixed plots (added ticks), added segmented corner plots" />
+    <list default="true" id="8adec3b0-9742-4b48-84e3-112b6938378a" name="Changes" comment="fixed plots (added ticks), added segmented corner plots">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Corner Plots JMAS Sections.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Corner Plots JMAS Sections.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Corner Plots JMAS.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Corner Plots JMAS.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Corner Plots Stability.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Corner Plots Stability.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_vs_srd_cosmo.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_vs_srd_cosmo.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_all.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_all.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_all.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_all.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_cosmolf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_cosmolf.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_ialf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_ialf.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_lf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_lf.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_all.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_all.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_all.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_all.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_cosmolf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_cosmolf.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_ialf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_ialf.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_lf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_lf.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/stem_comparison_y1_300_500_1000..png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/stem_comparison_y1_300_500_1000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/stem_comparison_y1_300_500_1000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/processing/helpers.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,8 +87,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
-        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
+        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
       </set>
     </attachedChunks>
   </component>
@@ -96,7 +115,9 @@
       <workItem from="1728853112166" duration="483000" />
       <workItem from="1733428644981" duration="9575000" />
       <workItem from="1733441594884" duration="2243000" />
-      <workItem from="1733478953793" duration="9393000" />
+      <workItem from="1733478953793" duration="9882000" />
+      <workItem from="1733913232795" duration="1937000" />
+      <workItem from="1736219519319" duration="6636000" />
     </task>
     <task id="LOCAL-00001" summary="updated plots with dpi">
       <option name="closed" value="true" />
