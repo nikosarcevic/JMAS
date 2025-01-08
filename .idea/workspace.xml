@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8adec3b0-9742-4b48-84e3-112b6938378a" name="Changes" comment="fixed plots (added ticks), added segmented corner plots">
+    <list default="true" id="8adec3b0-9742-4b48-84e3-112b6938378a" name="Changes" comment="increased the labels on some corner plots">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Corner Plots JMAS Sections.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Corner Plots JMAS Sections.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Corner Plots JMAS.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Corner Plots JMAS.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Corner Plots Stability.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Corner Plots Stability.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_vs_srd_cosmo.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_vs_srd_cosmo.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_all.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_all.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_all.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_all.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_cosmolf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_cosmolf.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_ialf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_ialf.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_lf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y10_lf.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_all.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_all.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_all.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_all.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_cosmolf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_cosmolf.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_ialf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_ialf.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_lf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/corner_jmas_y1_lf.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/stem_comparison_y1_300_500_1000..png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots_output/corner_plots/stem_comparison_y1_300_500_1000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots_output/corner_plots/stem_comparison_y1_300_500_1000.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/processing/helpers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +101,7 @@
       <workItem from="1733478953793" duration="9882000" />
       <workItem from="1733913232795" duration="1937000" />
       <workItem from="1736219519319" duration="6636000" />
+      <workItem from="1736226914931" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="updated plots with dpi">
       <option name="closed" value="true" />
@@ -163,7 +147,8 @@
     <MESSAGE value="Resolved merge conflicts and concluded merge" />
     <MESSAGE value="added title to convolution method" />
     <MESSAGE value="fixed plots (added ticks), added segmented corner plots" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed plots (added ticks), added segmented corner plots" />
+    <MESSAGE value="increased the labels on some corner plots" />
+    <option name="LAST_COMMIT_MESSAGE" value="increased the labels on some corner plots" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JMAS$fisher_processing.coverage" NAME="fisher_processing Coverage Results" MODIFIED="1717156960348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
